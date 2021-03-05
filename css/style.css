@@ -25,53 +25,61 @@ body{
     float: left;
 }
 
-.p-left{
-    padding-left: 200px;
+.font-min{
+    font-size: 0.8em;
 }
 
-.p-right{
-    padding-left: 270px;
+.text-right{
+    text-align: right;
 }
 
-.margin-r{
-    margin-right: 200px;
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
 }
 
 
 
-/* NAV BAR FIXED */
+/* CONTAINER */
 
-.nav-bar{
-    /* position: fixed;
-    top: 0;   */
+.container-1{
+    width: 100%;
+}
+
+.container-2{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+/* NAV */
+
+.nav{
     width: 100%;
     height: 80px;
     background-color: rgb(244, 249, 253);
     border-bottom: 1px solid rgb(104, 121, 134);
     line-height: 80px;
     vertical-align: middle;
-    
 }
 
 
-/* NAV LEFT */
-.nav-left-english{
-    display: inline-block;
-    
-}
 
-/* NAV RIGHT */
-
-
+/* BTN */
 
 
 .btn{
     display: inline-block;
     padding: 0 15px;
     border-radius: 5px;
-    font-size: 0.8em;
     height: 30px;
     line-height: 30px;
+    margin: 0 10px;
 }
 
 .btn.btn-white{
@@ -93,45 +101,64 @@ body{
 }
 
 
+/* HEADER */
 
-
-/* HEADER TOP */
-
-header{
-    width: 100%;
+/* LOGO */
+.header-top{
+    height: 80px;
 }
 
-.header-top{
-    width: 100%;
+.header-logo {
     height: 80px;
     line-height: 80px;
 }
 
-.header-top-li{
-    text-align: right;
-    list-style: none;
+.header-logo img{
+    vertical-align: middle;
 }
 
-.header-top-li li{
+/* LIST */
+
+.header-list{
+    height: 80px;
+    line-height: 80px;
+}
+
+.header-list li{
     display: inline;
     padding: 0 7px;
     font-size: 0.8em;
-    
 }
 
-.header-top-li li a{
-    padding-right: 10px;
+.header-list li a{
     text-decoration: none;
+    padding-right: 10px;
 }
 
-/* HEADER BOTTOM */
-.header-bottom{
-    width: 100%;
-    height: 600px;
+
+
+/* JUMBOTRON */
+
+.jumbotron-background{
+    height: 500px;
     background-image: url(../img/jumbotron.png);
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position-x: 100% ;
-    
-    
+    background-position: right;
+    background-color: rgb(255, 243, 238);
 }
+
+.line-color{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(175, 235, 228);
+    border-top: 2px solid rgb(51, 71, 91);
+    border-bottom: 2px solid rgb(51, 71, 91);
+    bottom: 0;
+}
+
+.
+
+
+
 
