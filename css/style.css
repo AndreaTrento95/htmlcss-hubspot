@@ -213,11 +213,11 @@ body{
     text-align: center;
 }
 
-.img{
+.main-title .img{
     padding-top: 50px;
 }
 
-.img img{
+.main-title .img img{
     width: 20%;
 }
 
@@ -355,6 +355,59 @@ li .fas{
 .col-center{
     margin: 0 2% 0 2%;
 }
+
+
+
+/* MAIN TABLE */
+
+/* TITLE */
+.main-table{
+    background-color: turquoise;
+}
+
+.table-title{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.main-table h2,
+.main-table p{
+    color: white;
+}
+
+.main-table p{
+    line-height: 23px;
+}
+
+/* TABLE */
+
+.table .box{
+    width: 25%;
+    border-right: 1px solid  rgba(247, 252, 253, 0.5);
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.table .box .box-inside{
+    margin: 10px 20px;
+}
+
+.table .p-number{
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.table .box .img{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.table .box .img img{
+    width: 100%;
+}
+
+
 
 
 
