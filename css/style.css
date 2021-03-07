@@ -39,6 +39,10 @@ body{
     text-align: right;
 }
 
+.text-left{
+    text-align: left;
+}
+
 .relative{
     position: relative;
 }
@@ -402,13 +406,13 @@ li .fas{
     border-right: none;
 }
 
-.table .box .box-inside{
+.box-inside{
     margin: 10px 20px;
 }
 
-.table .p-number{
+.p-number{
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 20px;
 }
 
@@ -431,9 +435,57 @@ li .fas{
 }
 
 
+/* MAIN PARTNERS */
+
+/* RIGHT */
+ .partners .box-left{
+    width: 25%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.partners .box-left .p-number{
+    font-weight: 800;
+}
+
+.partners .box-left .font{
+    line-height: 25px;
+}
+
+.partners .box-left .text-left{
+    margin-left: 40px;
+}
 
 
+/* LEFT */
 
+.partners .box-right{
+    width: 74%;
+    padding-left: 1%;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.partners .box-right .img{
+    display: inline-block;
+    width: 18%;
+    height: 38px;
+    line-height: 38px;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.partners .box-right .img img{
+    width: 100%;
+}
+
+.partners .box-right .second-line{
+    padding-top: 30px;
+}
+
+.partners .box-right .img.classpass{
+    margin-bottom: 12px;
+}
 
 
 
