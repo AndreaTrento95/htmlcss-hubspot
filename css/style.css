@@ -381,11 +381,25 @@ li .fas{
 
 /* TABLE */
 
+/* TOP */
+
 .table .box{
     width: 25%;
     border-right: 1px solid  rgba(247, 252, 253, 0.5);
-    border-bottom: 1px solid white;
     text-align: center;
+}
+
+.table .box.box-top{
+    border-bottom: 1px solid white;
+}
+
+.table .box.penultimate-box{
+    border-right: none;
+}
+
+.table .box.last-box{
+    border-left: 1px solid white;
+    border-right: none;
 }
 
 .table .box .box-inside{
@@ -406,6 +420,17 @@ li .fas{
 .table .box .img img{
     width: 100%;
 }
+
+.table-bottom .box .last-numb{
+    margin-top: 9px;
+}
+
+
+.table.table-bottom{
+    padding-bottom: 80px;
+}
+
+
 
 
 
