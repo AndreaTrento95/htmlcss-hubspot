@@ -12,6 +12,10 @@
     clear: both;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     min-width: 1200px;
     font-family: 'Montserrat', sans-serif;
@@ -74,6 +78,8 @@ body{
 /* NAV */
 
 .nav{
+    position: fixed;
+    top: 0;
     width: 100%;
     height: 80px;
     background-color: rgb(244, 249, 253);
@@ -82,6 +88,15 @@ body{
     vertical-align: middle;
 }
 
+span.search{
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.6em;
+}
+
+span.search .fa-search{
+    color: rgb(8, 169, 193);
+}
 
 
 /* BTN */
@@ -312,7 +327,7 @@ li .fa-check-circle{
 }
 
 .main-col .col{
-    width: 32%;
+    width: 30%;
     background-color: white;
     border-radius: 10px;
 }
@@ -358,7 +373,7 @@ li .fa-check-circle{
 }
 
 .col-center{
-    margin: 0 2% 0 2%;
+    margin: 0 5% 0 5%;
 }
 
 
@@ -567,3 +582,64 @@ li .fa-check-circle{
     color:white;
 }
 
+.footer-container .footer-btn{
+    display: inline-block;
+    border-radius: 5px;
+    background-color:  white;
+    margin-bottom: 10px;
+}
+
+.footer-container .footer-btn a{
+    height: 30px;
+    line-height: 30px;
+    color: rgb(50, 73, 91);
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.footer-container .social .fab{
+    padding-right: 22px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+
+/* FOOTER LANGUAGE */
+
+.container-2.footer-language{
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.footer-language p{
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    color: rgb(191, 203, 215);
+}
+
+
+/* FOOTER PRIVACY */
+
+.footer-privacy{
+    padding-top: 30px;
+}
+
+.footer-privacy .box-left{
+    width: 25%;
+}
+
+.footer-privacy .box-left p{
+    color: white;
+    padding-top: 5px;
+}
+
+.footer-privacy .box-right{
+    width: 75%;
+}
+
+.footer-privacy .box-right p{
+    display: inline-block;
+    padding-right: 15px;
+    color: rgb(191, 203, 215);
+}
