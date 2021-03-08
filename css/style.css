@@ -80,6 +80,7 @@ body{
 .nav{
     position: fixed;
     top: 0;
+    z-index: 100;
     width: 100%;
     height: 80px;
     background-color: rgb(244, 249, 253);
@@ -87,6 +88,26 @@ body{
     line-height: 80px;
     vertical-align: middle;
 }
+
+.nav .vertical-line{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav .vertical-line div{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    border-right: 1px solid gray;
+    margin-left: 10px;
+}
+
+
+.nav .nav-left p{
+    display: inline-block;
+}
+
 
 span.search{
     height: 30px;
@@ -382,7 +403,7 @@ li .fa-check-circle{
 
 /* TITLE */
 .main-table{
-    background-color: turquoise;
+    background-image: linear-gradient(to right, rgb(0,171,182) , rgb(0,187,167) );
 }
 
 .table-title{
@@ -508,11 +529,12 @@ li .fa-check-circle{
 
 /* LEFT */
 .partners-bottom{
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 .partners-bottom .box-left{
     width: 40%;
+    height: 284px;
 }
 
 .partners-bottom .box-left .font{
@@ -545,7 +567,7 @@ li .fa-check-circle{
 }
 
 .partners-bottom .box-right img{
-    width: 50%;
+    width: 40%;
 }
 
 
@@ -622,7 +644,7 @@ li .fa-check-circle{
 /* FOOTER PRIVACY */
 
 .footer-privacy{
-    padding-top: 30px;
+    padding: 40px 0;
 }
 
 .footer-privacy .box-left{
