@@ -425,6 +425,11 @@ li .fa-check-circle{
     line-height: 23px;
 }
 
+.p-number .fa-plus{
+   color: white;
+   font-size: 20px;
+}
+
 /* TABLE */
 
 /* TOP */
